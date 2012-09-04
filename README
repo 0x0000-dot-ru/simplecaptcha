@@ -2,3 +2,20 @@ SimpleCaptcha - A Java library for creating CAPTCHAs for J2EE applications,
 including Spring MVC, Struts, and Grails.
 
 To build a jar with depedencies, simply run 'mvn assembly:assembly' from this directory.
+
+To downloading from the Maven SimpleCaptcha GitHub repository add the following sections to your pom.xml:
+
+	<repositories>
+		<repository>
+			<id>SimpleCaptchaRepository</id>
+			<url>https://raw.github.com/0x0000-dot-ru/simplecaptcha/master/repository/releases</url>
+		</repository>
+	<repository>
+
+	<dependencies>
+		<dependency>
+			<groupId>nl.captcha</groupId>
+			<artifactId>simplecaptcha</artifactId>
+			<version>1.2.1-mvn</version>
+		</dependency>
+	<dependencies>
